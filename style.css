@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+span.sound {
+  color: indianred;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+kbd {
+  font-size: 5rem;
+}
+
+.key {
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 4px solid black;
+  margin: 1rem;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  transition: all 0.1s ease;
+}
+
+.active {
+  border: 5px solid yellow;
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem #ffc600;
+}
+.keys {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+}
+
+body {
+  background-image: url('https://www.schagerl.com/drums/v2/wp-content/uploads/2018/04/Schagerl-Drums-Dark-Vintage-Set-Feb-2018-1789-2-1024x768.jpg');
+  background-size: cover;
+  color: white;
+}
